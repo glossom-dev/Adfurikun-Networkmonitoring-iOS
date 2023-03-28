@@ -1,0 +1,6 @@
+framework module ADFNetworkMonitor {
+  umbrella header "ADFNetworkMonitor.h"
+
+  export *
+  module * { export * }
+}
