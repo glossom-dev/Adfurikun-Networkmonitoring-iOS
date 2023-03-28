@@ -4,7 +4,16 @@ Network Monitoringモジュールはアドフリくんで使っているアド�
 
 ## 導入手順
 
-### SDK導入
+### CocoaPodsを利用する場合
+
+Podfile に以下の記述を追加します。
+
+```
+  pod 'Adfurikun-Networkmonitoring-iOS'
+```
+
+
+### 手動で導入する場合
 
 Network Monitoring Libraryファイル（ADFNetworkMonitor.xcframework）をXcode Projectに追加します。
 
