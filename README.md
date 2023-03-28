@@ -6,7 +6,7 @@ Network Monitoringモジュールはアドフリくんで使っているアド�
 
 ### CocoaPodsを利用する場合
 
-Podfile に以下の記述を追加します。
+Podfile に以下の記述を追加して下さい。
 
 ```
   pod 'Adfurikun-Networkmonitoring-iOS'
