@@ -87,23 +87,3 @@ Objective-C
 2022-05-31 16:58:32.887 [ADFNM] [TRACE] [replaceSessionWithConfigurationDelegate L:379] 
 2022-05-31 16:58:32.887 [ADFNM] [TRACE] [replaceDataTaskWithRequest L:444] 
 ```
-
-## Sample Project
-
-### ビルド方法
-
-Sample Projectを実行するためには、アドフリくんSDKを導入する必要があります。
-
-アドフリくんSDKは、CocoaPodsで導入ができ、Sample ProjectにあるPodfileに既に設定されているので、`pod install` で導入ができます。
-
-そのあと、`NetworkMonitoringSample.xcworkspace` をXcodeで開きます。
-
-### 実装について
-
-ViewController.swiftのappId変数にアドフリくんの広告枠IDを入力します。
-
-```
-private let appId = ""
-```
-
-また、ネットワークモニタリングを活性化するためには広告枠の設定変更が必要です。設定変更についてはGlossomの担当者に連絡してください。
